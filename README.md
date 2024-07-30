@@ -26,25 +26,26 @@ Para este desafío de desarrollo, se requiere realizar las siguientes tareas:
 
 El proyecto está organizado de la siguiente manera:
 
+```plaintext
 project-root/
-├── models/ # Modelos de figuras geometricas
-│   ├── Circle.cs
-|   ├── Shape.cs # Clase base
-│   ├── Square.cs
-│   ├── Triangle.cs
-│   ├── Trapezoid.cs
-├── utils/
-│   ├── ReportGenerator.cs # Clase static para imprimir los reportes
-│   └── Translations.cs # Clase static para manejar las traducciones
-├── localization/ # Archivos de traducciones
-│   ├── en.json
-│   ├── es.json
-│   └── it.json
-├── tests/ # Test por figuras
-│   ├── CircleTests.cs
-|   ├── MultipleShapeTests.cs
-|   ├── EmptyListTests.cs
-│   ├── SquareTests.cs
-│   ├── TriangleTests.cs
-│   ├── TrapezoidTests.cs
-└── README.md
+├── models/                # Modelos de figuras geométricas
+│   ├── Circle.cs          # Clase para la figura Círculo
+│   ├── Shape.cs           # Clase base
+│   ├── Square.cs          # Clase para la figura Cuadrado
+│   ├── Triangle.cs        # Clase para la figura Triángulo
+│   ├── Trapezoid.cs       # Clase para la figura Trapecio
+├── utils/                 # Utilidades
+│   ├── ReportGenerator.cs # Clase estática para imprimir los reportes
+│   └── Translations.cs    # Clase estática para manejar las traducciones
+├── localization/          # Archivos de traducciones
+│   ├── en.json            # Traducción al inglés
+│   ├── es.json            # Traducción al español
+│   └── it.json            # Traducción al italiano
+├── tests/                 # Tests por figuras
+│   ├── CircleTests.cs     # Tests para Círculo
+│   ├── MultipleShapesTests.cs # Tests para múltiples figuras
+│   ├── EmptyListTests.cs  # Tests para listas vacías
+│   ├── SquareTests.cs     # Tests para Cuadrado
+│   ├── TriangleTests.cs   # Tests para Triángulo
+│   ├── TrapezoidTests.cs  # Tests para Trapecio
+└── README.md              # Documentación del proyecto
